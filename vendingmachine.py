@@ -1,3 +1,4 @@
+
 import tkinter as tk, threading
 from tkinter import messagebox
 from PIL import Image, ImageTk
@@ -283,7 +284,7 @@ def mainMenu(payment="cash"):
                 else:
                     messagebox.showinfo("Failed", f'Gagal membeli {names[item_no-1]} karena uang tidak mencukupi')
             elif payment == "qr":
-                if balance > prices[item_no-1]:
+                if balance >= prices[item_no-1]:
                     label.destroy()
                     showQr(item_no)
                 else:
