@@ -1,0 +1,4 @@
+imageio
+qrcode
+imageio-ffmpeg
+Pillow

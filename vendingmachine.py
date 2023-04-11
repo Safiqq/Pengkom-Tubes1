@@ -1,4 +1,4 @@
-
+import PIL
 import tkinter as tk, threading
 from tkinter import messagebox
 from PIL import Image, ImageTk
